@@ -37,7 +37,7 @@ const page = async ({}) => {
       <h1 className="font-bold text-5xl mb-8">Discussions recentes</h1>
       {friendsWithLastMessage.length === 0 ? (
         <p className="text-sm text-zinc-500">
-          Rien à montrer pour l'instant ici...
+          Rien à montrer ici pour le momemt...
         </p>
       ) : (
         friendsWithLastMessage.map((friend) => (
